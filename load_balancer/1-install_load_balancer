@@ -4,8 +4,8 @@
 #   - Make sure that HAproxy can be managed via an init script
 #   - Make sure that your servers are configured with the right hostnames: [STUDENT_ID]-web-01, [STUDENT_ID]-web-02
 
-apt-get -y install software-properties-common
-add-apt-repository ppa:vbernat/haproxy-1.8
+# apt-get -y install software-properties-common
+# add-apt-repository ppa:vbernat/haproxy-1.8
 apt-get update
 apt-get -y install haproxy
 echo "ENABLED=1" >> /etc/default/haproxy
